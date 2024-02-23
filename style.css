@@ -1,0 +1,95 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+  }
+  
+  .heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .share {
+    border: none;
+    background-color: none;
+    width: 2.5rem;
+  }
+  
+  
+  
+  .box1 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .vivek {
+    width: 8rem;
+    height: 8rem;
+   
+  }
+  .subabout{
+    height: 16rem;
+    background-color: #C7D0FF36;
+  }
+  
+  .box2,
+  .box3,.about {
+    width: 80%;
+    height: 16rem;
+    background-color: #C7D0FF36;
+    margin: 1rem auto;
+    padding: 1rem 0rem 0rem 1rem;
+  box-shadow: inset 0.25rem 0.25rem #0000ff24;
+  }
+  .box2{
+    height: 28rem;
+  }
+  .circumstances{
+    display: flex;
+    justify-content: center;
+
+  }
+  .box3 {
+    height: 23rem;
+  }
+  
+  .payment {
+    display: none;
+  }
+  
+  .box4 {
+    margin: 0rem 0rem 0rem 1.5rem;
+  }
+  
+  #paymentbutton {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0rem 0rem 2.5rem;
+  }
+  .paymentbutton{
+    background-color: #6D83F2;
+  }
+  .onlinepay{
+    width: 8rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6A98F0;
+    margin: 5rem auto;
+  }
+  .scanerphonepe{
+    display: none;
+  }
+  .scanergooglepay{
+    display: none;
+  }
+  .scanerpaytm{
+    display: none;
+  }
+  .imgpay{
+    width:20rem ;
+    height: 40rem;
+   margin: 0rem 1.5rem;
+  }
