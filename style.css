@@ -6,6 +6,7 @@
   .heading {
     display: flex;
     justify-content: space-between;
+      font-family: 'Nikeflix', sans-serif;
   }
   
   .share {
@@ -13,8 +14,9 @@
     background-color: none;
     width: 2.5rem;
   }
-  
-  
+  body{
+      background-image: url('bg.png.jpg');
+  }
   
   .box1 {
     display: flex;
