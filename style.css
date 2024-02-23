@@ -34,7 +34,7 @@
   }
   .about {
     width: 80%;
-    height: 18rem;
+    height: 13rem;
     background-color: #C7D0FF36;
     margin: 1rem auto;
     padding: 1rem 0rem 0rem 1rem;
@@ -44,14 +44,13 @@
   .box2,
   .box3{
     width: 80%;
-    height: 33rem;
     background-color: #C7D0FF36;
     margin: 1rem auto;
     padding: 1rem 0rem 0rem 1rem;
   box-shadow: inset 0.25rem 0.25rem #0000ff24;
   }
   .box2{
-    height: 33rem;
+    height: 20rem;
   }
   .circumstances{
     display: flex;
@@ -59,7 +58,7 @@
 
   }
   .box3 {
-    height: 33rem;
+    height: 15rem;
   }
   
   .payment {
