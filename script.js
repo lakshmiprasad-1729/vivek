@@ -39,3 +39,31 @@ googlepay.addEventListener("click",()=>{
     scanergooglepay.style.display="inline";
 
 })
+function handleRedirect() {
+    // Check if WhatsApp is installed
+    if (isWhatsAppInstalled()) {
+      return true; // Allow the link to proceed
+    } else {
+      // WhatsApp is not installed, handle fallback
+      alert("WhatsApp is not installed. Please install the app to share.");
+      // Optionally, redirect the user to a web page with similar functionality
+      // window.location.href = "https://www.example.com";
+      return false; // Prevent the link from proceeding
+    }
+  }
+
+  function isWhatsAppInstalled() {
+    // Try to open WhatsApp's custom URL scheme
+    var url = "whatsapp://send?text=test";
+    var isInstalled = false;
+
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", url, false); // Synchronous request
+    xhr.send();
+
+    if (xhr.status == 200) {
+      isInstalled = true;
+    }
+
+    return isInstalled;
+  }

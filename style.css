@@ -8,12 +8,13 @@
     justify-content: space-between;
       font-family: 'Nikeflix', sans-serif;
   }
-  
-  .share {
-    border: none;
-    background-color: none;
-    width: 2.5rem;
+  .whatsapp{
+    margin: 0rem 1rem 0rem 0rem;
+    width: 3rem;
+    height: 3rem;
+    filter: drop-shadow(0 0 0.75rem black);
   }
+  
   body{
       background-image: url('bg.png.jpg');
   }
@@ -72,13 +73,11 @@
   #paymentbutton {
     display: flex;
     justify-content: center;
-    margin: 1rem 0rem 0rem 2.5rem;
+    margin: 0.4rem 0rem 0rem 2.5rem;
   }
   .paymentbutton{
-    background-color: #6D83F2;
     width: 8rem;
-    height: 3rem;
-    border: 1px solid black;
+    height: 8rem;
     border-radius: 1rem;
     display: flex;
     justify-content: center;
@@ -90,14 +89,19 @@
   }
   .onlinepay{
     width: 8rem;
-    height: 3rem;
-    border: 1px solid black;
-    border-radius: 1rem;
+    height: 8rem;
+    margin: 2rem auto;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #6A98F0;
-    margin: 5rem auto;
+    background-color: white;
+  border-radius: 4rem;
+  }
+  .googleonlinepay{
+    width: 10rem;
+    height: 8rem;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
   }
   .scanerphonepe{
     display: none;
@@ -115,4 +119,9 @@
   }
   .info{
     margin: 0rem 1.5rem;
+  }
+  .link {
+    list-style: none;
+    color: black;
+    text-decoration: none;
   }
