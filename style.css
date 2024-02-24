@@ -23,19 +23,25 @@
     display: flex;
     justify-content: space-evenly;
   }
-  
+  .subabout{
+    /* height: 16rem; */
+    background-color: #C7D0FF36;
+  }
+  .circumstances{
+    display: flex;
+    justify-content: center;
+
+  }
   .vivek {
     width: 8rem;
     height: 8rem;
    
   }
-  .subabout{
-    height: 16rem;
-    background-color: #C7D0FF36;
-  }
+  
+ 
   .about {
     width: 80%;
-    height: 15rem;
+    /* height: 15rem; */
     background-color: #C7D0FF36;
     margin: 1rem auto;
     padding: 1rem 0rem 0rem 1rem;

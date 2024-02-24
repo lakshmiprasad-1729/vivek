@@ -1,0 +1,23 @@
+@media(min-width:360px){
+   .vivek{
+    width: 11rem;
+    height: 11rem;
+   }
+   .about{
+    width: 30%;
+    background-color: #C7D0FF36;
+    padding: 1rem 0rem 0rem 1rem;
+    padding: 1rem 0rem 0rem 1rem;
+   }
+   .box2{
+     width: 30%;
+     background-color: #C7D0FF36;
+     margin: 1rem auto;
+     padding: 1rem 0rem 0rem 1rem;
+   box-shadow: inset 0.25rem 0.25rem #0000ff24;
+   }
+   .mixofbox1box2{
+    display: flex;
+    justify-content:space-between;
+   }
+}
